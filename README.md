@@ -11,16 +11,6 @@ Shifting security left by integrating security scanning directly into the CI/CD 
 - **Static Application Security Testing (SAST):** Integrates Checkov to perform static analysis against CIS Benchmarks and AWS Security Best Practices.
 - **Policy Enforcement:** Pipeline fails builds containing high-severity risks (e.g., world-open SSH ports, public S3 buckets).
 
-## Project Structure
-```text
-devsecops-terraform-scanner/
-│
-├── .github/
-│   └── workflows/
-│       └── compliance-scan.yml   # GitHub Actions CI/CD pipeline
-├── main.tf                       # Terraform configuration (IaC)
-└── README.md                     # Documentation
-```
 ## Security Violations Caught by Pipeline
 1. **CKV_AWS_20:** S3 Bucket Has Public Access Unblocked.
 2. **CKV_AWS_24:** Security Group
