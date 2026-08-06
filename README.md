@@ -20,3 +20,10 @@ devsecops-terraform-scanner/
 │       └── compliance-scan.yml   # GitHub Actions CI/CD pipeline
 ├── main.tf                       # Terraform configuration (IaC)
 └── README.md                     # Documentation
+```
+## Security Violations Caught by Pipeline
+1. **CKV_AWS_20:** S3 Bucket Has Public Access Unblocked.
+2. **CKV_AWS_24:** Security Group
+allows SSH access (Port 22) from 0.0.0.0/0.
+3. **CKV_AWS_145:** S3 Bucket lacks explicit Server-Side Encryption
+(SSE) -
