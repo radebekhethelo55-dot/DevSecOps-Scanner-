@@ -1,4 +1,4 @@
-# Automated Cloud Compliance Scanner (DevSecOps CI/CD)
+# Cloud Compliance Scanner (DevSecOps CI/CD)
 
 This is a DevSecOps demonstration featuring automated Static Application Security Testing (SAST) for Infrastructure as Code (IaC) using Terraform, GitHub Actions, and Checkov.
 
